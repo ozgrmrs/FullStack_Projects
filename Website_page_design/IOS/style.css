@@ -1,0 +1,123 @@
+*{   
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+.container{
+    display:flex;    
+    margin:auto;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.header {    
+    display:grid;
+    grid-template-columns: 470px;
+    grid-template-rows:100px 150px;
+    background-color:rgb(0, 0, 0);
+    margin:auto;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;   
+}
+.altpen{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align:center;
+    font-size: 3rem;    
+}
+.ustpen{
+    background-color:rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(189, 188, 188);
+    text-align:end;
+    font-size: 2rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.buttonpen{
+    display:grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows:repeat(5, 100px);
+    background-color:rgb(0, 0, 0);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin:auto;
+    justify-content: center;
+    padding:20px 20px 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;  
+}
+
+.button{
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #363636;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items:center;  
+    transition: filter .5s;   
+}
+.button:hover{
+    background-color: #3636364b;
+}
+.num0{
+    grid-row: 5/6;
+    grid-column: 1/span 2;
+    border-radius: 55px;
+}
+.operation{
+    background-color: #FF9834;    
+    font-size: 4rem;
+
+}
+.operation:hover{
+    background-color: #FF9A346c;
+}
+.function{
+    background-color: #A4A4A4;
+    color: black;
+}
+.function:hover{
+    background-color: #a4a4a480;
+}
+#ustpen{
+    color: rgb(255, 255, 255);
+    height: 2.5rem;
+    background-color: black;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin:40px  auto;
+    padding: 5px;
+    font-size: 2rem;
+    text-align:end; 
+    border: none;
+    outline: none;  
+}
+#altpen{
+    color: rgb(255, 255, 255);
+    height: 4rem;
+    background-color: black;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin:40px  auto;
+    padding: 5px;
+    font-size: 6rem;
+    text-align:end;
+    border: none;
+    outline: none;   
+}
+
+img{
+    background-color: transparent;
+}
+
+

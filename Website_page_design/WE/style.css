@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    height: 100%;
+}
+
+header{
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 4rem;
+    border-bottom: 5px solid #BB5289;
+    align-items: center;
+    padding: 0rem 1rem;
+     font-size: 1.3rem;
+}
+
+span{
+    color:#86547E ;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 1.3rem;
+}
+.menu{
+    display: flex;
+    float: right;
+    
+    
+}
+.homediv{
+    background-image: url(img/showcase.jpg);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+    color: white;
+    padding: 0rem 5rem;
+    
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.subsdiv{
+    height: 60px;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem 0rem 2rem;
+    align-items: center;
+    color: white;
+    
+}
+
+#email{
+    height: 1.8rem;
+}
+#subbutton{
+    height: 1.8rem;
+    width: 6rem;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 3rem 3rem;
+}
+
+footer{
+    background-color: #35424A;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: white;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+#logo{
+    width: 160px;
+    height: 30px;
+    margin-top: 0.5rem;
+    
+}
+/* img{
+    width: 40%;
+    height: 40%;
+} */
+ h3{
+     margin: 1rem 0rem;
+ }
+
+ 
+ a{
+     color: white;
+     text-decoration: none;
+     
+ }
+ a:hover{
+    color:#BB5289 ;
+    cursor: pointer;
+
+ }
+ .abouts{
+     height: 570px;
+     display: flex;
+     /* flex-direction: row-reverse; */
+    
+ }
+ .aboutus{
+     display: flex;
+     
+ }
+ .secondparg{
+     /* margin: 3rem 2rem 0 1rem; */
+     margin-top: 3rem;
+     background-color:#35424A ;
+     color: white;
+     padding: 1rem;
+     line-height: 1.5;
+     text-align: justify;
+ }
+ .firstparg{
+     margin: 3rem 5rem 0 3rem;
+     line-height: 1.5;
+
+ }
+ 
+ .whatdo{
+     height: 300px;
+    margin: 3rem 2rem 0rem 0rem;
+    background-color:#35424A ;
+    color: white;
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+ }
+ .services{
+     display: flex;
+ }
+ .servicestype{
+     margin: 2rem 3rem 1rem 2rem;
+ }
+ .websites{
+     background-color: #E6E6E6;
+     margin-top: 0.5rem;
+     padding: 2rem 2rem 2rem 1rem;
+ }
+ .websites h4{
+     margin-bottom: 1rem;
+ }
+ .quote{
+    background-color:#35424A ;
+    height: 300px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    color: white;
+    padding: 2rem 2rem 2rem 1rem;
+    line-height: 1.5;
+    
+ }
+ .quote h4{
+     margin-bottom: 1rem;
+ }
+ #sendbutton{
+     background-color: orangered;
+     width: 5rem;
+     height: 2rem;
+     color: white;
+     border-radius: 10px;
+     font-size: 1rem;
+ }
+ #message{
+     height: 4rem;
+     
+ }
+ @media screen and (max-width: 1024px){
+
+    header {
+        flex-direction:column;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        margin-top: 1rem;
+        display: block;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 2rem;
+        margin-bottom: 0.5rem;
+        
+    }
+    .gridcontainer img{
+        width: 40%;
+        height: 50%;
+    }
+        
+    
+}
+
