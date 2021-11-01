@@ -22,13 +22,13 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;   
 }
-.altpen{
+.downwin{
     background-color: rgb(0, 0, 0);
     color: white;
     text-align:center;
     font-size: 3rem;    
 }
-.ustpen{
+.upwin{
     background-color:rgb(0, 0, 0);
     box-sizing: border-box;
     color: rgb(189, 188, 188);
@@ -87,7 +87,7 @@
 .function:hover{
     background-color: #a4a4a480;
 }
-#ustpen{
+#upwin{
     color: rgb(255, 255, 255);
     height: 2.5rem;
     background-color: black;
@@ -101,7 +101,7 @@
     border: none;
     outline: none;  
 }
-#altpen{
+#downwin{
     color: rgb(255, 255, 255);
     height: 4rem;
     background-color: black;
